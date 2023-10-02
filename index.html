@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digikala</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.rtl.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="">
+      <header class="container-fluid g-0 ">
+        <div class="d-lg-none  bg-white fixed-top">
+          <div
+          class="d-flex justify-content-between align-items-center px-4 py-2  "
+        >
+          <div class="d-flex gap-4 align-items-center">
+            <i
+              class="fa fa-arrow-right fs-4 text-dark-emphasis fw-lighter"
+              aria-hidden="true"
+            ></i>
+            <span class="fs-5 fw-bold d-block header-top">
+              گوشی موبایل|خرید انواع جدید گوشی موبایل با بهترین قیمت
+            </span>
+          </div>
+          <div class="d-flex gap-4 align-items-center">
+            <i
+              class="fa fa-search fs-4 text-dark-emphasis fw-lighter"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-share-alt fs-4 text-dark-emphasis fw-lighter"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </div>
+        </div>
+        
+        <div class=" bg-white  sticky-lg-top ">
+          <div class="h-bannner-header d-none d-lg-block ">
+            <img class="w-100 h-100 object-fit-cover " src="./public/images/banner-top.jpg" alt="" />
+          </div>
+          
+          <div
+          class="p-4 align-items-center justify-content-between d-none d-lg-flex   "
+        >
+          <div class="d-flex align-items-center gap-4">
+            <div class="">
+              <img src="./public/images/logo.svg" />
+            </div>
+            <div class="position-relative w-search">
+              <input
+                type="text"
+                class="bg-gray-light border-0 py-3 rounded-3 ps-5 w-100"
+                placeholder="جستجو"
+              />
+              <i
+                class="fa fa-search fs-5 ps-2 gray-icon position-absolute top-50 start-0 translate-middle-y"
+                aria-hidden="true"
+              >
+              </i>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <div
+              class="d-flex align-items-center gap-2 p-2 border border-1 gray-border rounded-3"
+            >
+              <i
+                class="fa fa-sign-in fs-4 text-dark-emphasis d-lg-none d-xl-block"
+                aria-hidden="true"
+              ></i>
+              <span>ورود | ثبت نام</span>
+            </div>
+            <div class="vertical-line"></div>
+            <i
+              class="fa fa-shopping-cart fs-4 text-dark-emphasis me-2"
+              aria-hidden="true"
+            ></i>
+          </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex p-4 align-items-center justify-content-between gap-1 d-none d-lg-flex"
+        >
+          <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center gap-2 gray-text">
+              <a
+                class="d-flex align-items-center gap-1 border-red whiteSpace-noWrap"
+                href=""
+              >
+                <i
+                  class="fa fa-bars dark-gray-text fs-5"
+                  aria-hidden="true"
+                ></i>
+                <span class="fs-14 dark-gray-text fw-bold"
+                  >دسته بندی کالاها</span
+                >
+              </a>
+              <div class="vertical-line"></div>
+            </div>
+
+            <div class="d-flex align-items-center gap-2 gray-text">
+              <a
+                class="d-flex align-items-center gap-1 border-red whiteSpace-noWrap"
+                href=""
+              >
+                <div class="w-icon">
+                  <img
+                    class="w-100"
+                    src="./public/images/discount.png"
+                    alt=""
+                  />
+                </div>
+                <span class="fs-14 gray-text">شگفت انگیزها</span>
+              </a>
+              <a
+                class="d-flex align-items-center gap-1 border-red whiteSpace-noWrap"
+                href=""
+              >
+                <div class="w-icon">
+                  <img
+                    class="w-100"
+                    src="./public/images/ingredients.png"
+                    alt=""
+                  />
+                </div>
+                <span class="fs-14 gray-text">سوپرمارکت</span>
+              </a>
+              <a
+                href=""
+                class="d-flex align-items-center gap-1 border-red whiteSpace-noWrap"
+              >
+                <div class="w-icon">
+                  <img
+                    class="w-100"
+                    src="./public/images/gift-card.png"
+                    alt=""
+                  />
+                </div>
+                <span class="fs-14 gray-text">کارت هدیه</span>
+              </a>
+              <a
+                href=""
+                class="d-flex align-items-center gap-1 border-red whiteSpace-noWrap"
+              >
+                <div class="w-icon">
+                  <img class="w-100" src="./public/images/hot2.png" alt="" />
+                </div>
+                <span class="fs-14 gray-text">پرفروش ترین ها</span>
+              </a>
+              <a
+                href=""
+                class="d-flex align-items-center gap-1 border-red whiteSpace-noWrap"
+              >
+                <div class="w-icon">
+                  <img
+                    class="w-100"
+                    src="./public/images/discount3.png"
+                    alt=""
+                  />
+                </div>
+                <span class="fs-14 letter-spacing gray-text"
+                  >تخفیف ها و پیشنهاد ها</span
+                >
+              </a>
+              <div class="vertical-line"></div>
+            </div>
+            <div class="d-flex align-items-center gap-2 gray-text">
+              <a href="" class="border-red fs-14 whiteSpace-noWrap gray-text"
+                >سوالی دارید؟</a
+              >
+              <a href="" class="border-red fs-14 whiteSpace-noWrap gray-text"
+                >دردیجی کالا بفروشید!</a
+              >
+            </div>
+            <!-- #9F9B9B -->
+          </div>
+          <a href="" class="flex align-items-center gap-1 whiteSpace-noWrap">
+            <i
+              class="fa fa-map-marker dark-gray-text fs-5"
+              aria-hidden="true"
+            ></i>
+            <span class="dark-gray-text fs-14"
+              >لطفا نام شهر خود را وارد کنید</span
+            >
+          </a>
+        </div>
+        <div class="slider-top position-relative height-slider">
+          <div class="swiper mySwiper w-100 h-100">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide ">
+                <img class="" src="./public/images/sider-1.jpg" />
+              </div>
+              <div class="swiper-slide ">
+                <img class=" " src="./public/images/slider-2.gif" />
+              </div>
+              <div class="swiper-slide ">
+                <img class=" " src="./public/images/slider-3.gif" />
+              </div>
+              <div class="swiper-slide ">
+                <img class=" " src="./public/images/slider-4.gif" />
+              </div>
+              <div class="swiper-slide">
+                <img class=" " src="./public/images/slider-5.gif" />
+              </div>
+              <div class="swiper-slide ">
+                <img class=" " src="./public/images/slider-6.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img class=" " src="./public/images/slider-7.jpg" />
+              </div>
+              <!-- <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div> -->
+            </div>
+
+            <div
+              class="swiper-button-next bg-white rounded-circle p-3 fw-bolder position-absolute top-50 translate-middle-y start-10"
+            ></div>
+            <div
+              class="swiper-button-prev bg-white rounded-circle p-3 fw-bolder position-absolute top-50 translate-middle-y start-20"
+            ></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </header>
+      <main class="container-xl">
+        <div
+          class="banner-top my-4 max-w-banner mx-auto height-banner-top d-flex flex-column flex-lg-row gap-4 px-2 flex-grow-1"
+        >
+          <img
+            class="w-100 h-100 rounded-3 object-fit-cover"
+            src="./public/images/banner-top2.jpg"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="section-phone border gray-border p-2 rounded-4 d-flex flex-column flex-lg-row mt-2"
+        >
+          <div class="p-2">
+            <h5>گوشی های دکمه ای</h5>
+            <div class="p-4 min-h-phones row">
+              <div class="col-8 col-lg-6 p-2">
+                <div class="d-flex align-items-center w-100 h-100">
+                  <img
+                    class="w-100 h-100 object-fit-cover"
+                    src="./public/images/phone1.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-4 col-lg-6 p-2 border-start">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div
+                      class="d-flex align-items-center h-phone p-2 border-bottom"
+                    >
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone2.jpg"
+                      />
+                    </div>
+                    <div class="d-flex align-items-center h-phone p-2">
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone3.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-6 border-start">
+                    <div
+                      class="d-flex align-items-center h-phone p-2 border-bottom"
+                    >
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone4.jpg"
+                      />
+                    </div>
+                    <div class="d-flex align-items-center h-phone p-2">
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone4-2.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <span class="color-secondry"> مشاهده </span>
+                <i class="fa fa-angle-left color-secondry" aria-hidden="true"></i>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="border-start p-2">
+            <h5 class="">سامسونگ با بهترین قیمت</h5>
+            <div class="p-4 min-h-phones row">
+              <div class="col-8 col-lg-6 p-2">
+                <div class="d-flex align-items-center w-100 h-100">
+                  <img
+                    class="w-100 h-100 object-fit-cover"
+                    src="./public/images/phone5.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-4 col-lg-6 p-2 border-start">
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div
+                      class="d-flex align-items-center h-phone p-2 border-bottom"
+                    >
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone6.jpg"
+                      />
+                    </div>
+                    <div class="d-flex align-items-center h-phone p-2">
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone7.jpg"
+                      />
+                    </div>
+                  </div>
+                  <div class="d-none d-lg-block col-lg-6 border-start">
+                    <div
+                      class="d-flex align-items-center h-phone p-2 border-bottom"
+                    >
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone8.jpg"
+                      />
+                    </div>
+                    <div class="d-flex align-items-center h-phone p-2">
+                      <img
+                        class="w-100 h-100 object-fit-contain"
+                        src="./public/images/phone9.jpg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <span class="color-secondry"> مشاهده </span>
+                <i class="fa fa-angle-left color-secondry" aria-hidden="true"></i>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-bestSeller border gray-border p-2 rounded-4 mt-4">
+          <div class="d-flex justify-content-center position-relative">
+            <span class="fs-4"> پر فروش ترین ها </span>
+            <span class="position-absolute end-0 top-0 color-secondry">
+              مشاهده همه
+            </span>
+          </div>
+          <div class="d-flex gap-2 mt-4 p-2">
+            <div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="d-flex gap-4 flex-column">
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone1.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >1</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone2.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >2</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone3.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >3</span
+                      >
+                      <div class="d-flex flex-column justify-content-center">
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="d-flex gap-4 flex-column">
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone4.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >4</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone5.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >5</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone6.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >6</span
+                      >
+                      <div class="d-flex flex-column justify-content-center">
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="d-flex gap-4 flex-column">
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone7.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >7</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone8.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >8</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone-9.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >9</span
+                      >
+                      <div class="d-flex flex-column justify-content-center">
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="d-flex gap-4 flex-column">
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone1.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >10</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone2.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >11</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone3.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >12</span
+                      >
+                      <div class="d-flex flex-column justify-content-center">
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="d-flex gap-4 flex-column">
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone4.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >13</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone5.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >14</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone6.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >15</span
+                      >
+                      <div class="d-flex flex-column justify-content-center">
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="d-flex gap-4 flex-column">
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone7.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >16</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone8.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >17</span
+                      >
+                      <div
+                        class="d-flex flex-column justify-content-center position-relative line-top"
+                      >
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex gap-2 sec-mini-phone">
+                      <div class="mini-phone w-100">
+                        <img
+                          class="w-100 object-fit-contain"
+                          src="public/images/mini-phone-9.jpg"
+                        />
+                      </div>
+                      <span
+                        class="fs-4 color-secondry d-flex align-items-center fw-bolder"
+                        >18</span
+                      >
+                      <div class="d-flex flex-column justify-content-center">
+                        <p
+                          class="ellipsis-2 overflow-hidden text-miniphon fs-14"
+                        >
+                          گوشی موبایل سامسونگ مدل Galaxy A14 دو سیم کارت ظرفیت
+                          64 گیگابایت و رم 4 گیگابایت ویتنام
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-button-next bg-white rounded-circle border p-3 fw-bolder"
+              ></div>
+              <div
+                class="swiper-button-prev bg-white rounded-circle border p-3 fw-bolder"
+              ></div>
+
+              <!-- <div class="swiper-pagination2"></div> -->
+            </div>
+          </div>
+        </div>
+        <div class="section-brands my-5">
+          <h4 class="text-center my-5">گوشی بر اساس برند</h4>
+          <div class="d-flex justify-content-center align-content-center flex-wrap gap-4 gap-lg-0">
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/brand1.png" alt="">
+                </div>
+                <span class="text-black">شیائومی</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/brand2.png" alt="">
+                </div>
+                <span class="text-black">سامسونگ</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center  w-brand">
+                  <img class="w-100 h-100 object-fit-contain" src="./public/images/brand3.png" alt="">
+                </div>
+                <span class="text-black">اپل</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/brand4.png" alt="">
+                </div>
+                <span class="text-black">نوکیا</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/brand-5.png" alt="">
+                </div>
+                <span class="text-black">آنر</span>
+              </a>
+            </span>
+          </div>
+        </div>
+        <div class="section-price my-5">
+          <h4 class="text-center my-5">گوشی بر اساس قیمت </h4>
+          <div class="d-flex justify-content-center align-content-center flex-wrap gap-4 gap-lg-0">
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/price1.jpg" alt="">
+                </div>
+                
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/price2.jpg" alt="">
+                </div>
+                
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center  w-brand">
+                  <img class="w-100 h-100 object-fit-contain" src="./public/images/price3.jpg" alt="">
+                </div>
+                
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/price4.jpg" alt="">
+                </div>
+                
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/price-5.jpg" alt="">
+                </div>
+               
+              </a>
+            </span>
+          </div>
+              
+        </div>
+        <div class="section-property my-5">
+          <h4 class="text-center my-5"> قیمت بر اساس ویژگی</h4>
+          <div class="d-flex justify-content-center align-content-center flex-wrap gap-4 gap-lg-0">
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain rounded-4" src="./public/images/property1.jpg" alt="">
+                </div>
+                <span class="text-black mt-2">باتری</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center w-brand">
+                  <img class="w-100 h-100 object-fit-contain rounded-4" src="./public/images/property2.jpg" alt="">
+                </div>
+                <span class="text-black mt-2">گیمینگ</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0">
+                <div class="d-flex justify-content-center align-content-center  w-brand">
+                  <img class="w-100 h-100 object-fit-contain rounded-4" src="./public/images/property3.jpg" alt="">
+                </div>
+                <span class="text-black mt-2">دوربین</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full p-lg-0 mx-lg-0 ">
+                <div class="d-flex justify-content-center align-content-center w-brand ">
+                  <img class="w-100 h-100 object-fit-contain rounded-4 " src="./public/images/property4.jpg" alt="">
+                </div>
+                <span class="text-black mt-2">5G</span>
+              </a>
+            </span>
+            
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col">
+            <img class="rounded-3 w-100 h-100 " src="./public/images/b-b-r.jpg" alt="">
+
+          </div>
+          <div class="col">
+            <img class="rounded-3 w-100 h-100 object-fit-contain " src="./public/images/b-b-l.jpg" alt="">
+          </div>
+        </div>
+        <div class="section-video mt-4  container-lg container-sm border-videos row row-cols-1 row-cols-lg-3 w-full mx-auto">
+          <div class="d-flex flex-column ">
+            <div class="h-text ">
+              <h6 class="m-4 text-start"> بررسی کوتاه شیائومی ۱۳؛ خوش‌دست و فوق‌العاده</h6>
+            </div>
+           
+            <div class="w-video2  overflow-hidden rounded-4  position-relative bg-black ">
+                <!-- <video  class="w-100 h-100 rounded-4 bg-black d-inline-block " src="./public/images/video-1.jpg" controls> -->
+                  <!-- <source src="" > -->
+                  <!-- <source src="movie.ogg" type="video/ogg"> -->
+                  <!-- <div class="position-absolute top-0 start-0 bottom-0 end-0 d-inline-block vertical-line"> -->
+                    <div class="w-100 h-100  overflow-hidden">
+                      <img class="w-100 h-100 object-img  "src="./public/images/video-1.jpg">
+                    </div>
+                    
+                    <button class="px-5 py-3 position-absolute top-50 start-50 translate-middle bg-btnPlay border-white rounded-3 d-flex align-content-center justify-content-center">
+                      <i class="fa fa-play text-white " aria-hidden="true"></i>
+
+                    </button>
+                  <!-- </div> -->
+                </video>
+            </div>
+            <div class="d-flex justify-content-center mt-2">
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <span class="color-secondry"> مشاهده </span>
+                <i class="fa fa-angle-left color-secondry" aria-hidden="true"></i>
+                
+              </div>
+            </div>
+            
+
+
+          </div>
+          <div class="d-flex flex-column border-video mt-2 pb-2 mt-lg-0 pb-lg-0  ">
+            <div class="h-text ">
+              <h6 class="m-4 text-start">بررسی گوشی شیائومی ۱۳؛ یک هیولای کوچک</h6>
+            </div>
+            
+            <div class="  w-video2 overflow-hidden rounded-4 bg-black position-relative d-flex justify-content-center align-content-center ">
+                <!-- <video  class="w-100 h-100 rounded-4 bg-black d-inline-block " src="./public/images/video-1.jpg" controls> -->
+                  <!-- <source src="" > -->
+                  <!-- <source src="movie.ogg" type="video/ogg"> -->
+                  <!-- <div class="position-absolute top-0 start-0 bottom-0 end-0 d-inline-block vertical-line"> -->
+                    <img class="w-100 h-100 object-img  "src="./public/images/video-2.jpg">
+                    <button class="px-5 py-3 position-absolute top-50 start-50 translate-middle bg-btnPlay border-white rounded-3 d-flex align-content-center justify-content-center">
+                      <i class="fa fa-play text-white " aria-hidden="true"></i>
+
+                    </button>
+                  <!-- </div> -->
+                </video>
+            </div>
+            <div class="d-flex justify-content-center mt-2">
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <span class="color-secondry"> مشاهده </span>
+                <i class="fa fa-angle-left color-secondry" aria-hidden="true"></i>
+                
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column ">
+            <div class="h-text ">
+              <h6 class="m-4 text-start">گلکسی A54 در برابر پوکو X5 پرو؛ کدام گوشی را بخریم؟</h6>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-content-center">
+              <div class=" w-video2  overflow-hidden rounded-2 bg-black position-relative ">
+                <!-- <video  class="w-100 h-100 rounded-4 bg-black d-inline-block " src="./public/images/video-1.jpg" controls> -->
+                  <!-- <source src="" > -->
+                  <!-- <source src="movie.ogg" type="video/ogg"> -->
+                  <!-- <div class="position-absolute top-0 start-0 bottom-0 end-0 d-inline-block vertical-line"> -->
+                    <img class="w-100 h-100 object-img  "src="./public/images/video-3.jpg">
+                    <button class="px-5 py-3 position-absolute top-50 start-50 translate-middle bg-btnPlay border-white rounded-3 d-flex align-content-center justify-content-center">
+                      <i class="fa fa-play text-white " aria-hidden="true"></i>
+
+                    </button>
+                  <!-- </div> -->
+                </video>
+              </div>
+            </div>
+            
+            <div class="d-flex justify-content-center mt-2">
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <span class="color-secondry"> مشاهده </span>
+                <i class="fa fa-angle-left color-secondry" aria-hidden="true"></i>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec-question mt-4 ">
+          <div class="d-flex flex-column h-p overflow-hidden ">
+           
+            <h1  class="gray-text"><span class=""><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:24.0pt"><span style="font-family:&quot;B Nazanin&quot;">گوشی موبایل و لوازم جانبی</span></span></strong></span></span></h1>
+            <p class="gray-text mt-4"><span class="fs-5"><span style="font-family:Calibri,sans-serif"><strong><span style="font-family:&quot;B Nazanin&quot;">گوشی موبایل</span></strong><span class="fs-5" ><span style="font-family:&quot;B Nazanin&quot;"> و تلفن هوشمند یک تلفن همراه با یک کامپیوتر یکپارچه و سایر ویژگی&zwnj;هایی است که در اصل به تلفن&zwnj;ها مرتبط نیستند. از میان این ویژگی&zwnj;ها می&zwnj;توان به سیستم&zwnj;عامل، وب&zwnj;گردی و قابلیت اجرای برنامه&zwnj;های نرم&zwnj;افزاری اشاره کرد. گوشی&zwnj;های هوشمند بخشی از زندگی روزمره ما هستند و نه&zwnj;تنها به ما کمک می&zwnj;کنند که با دیگران در ارتباط بمانیم بلکه امکانات بسیار گسترده&zwnj;تری مانند عکاسی و فیلمبرداری، بازی کردن، کتاب خواندن و غیره را در اختیار ما قرار می&zwnj;دهند. از سوی دیگر، برای استفاده از برخی از این امکانات و همچنین، مراقبت از سلامت گوشی هوشمند به یک سری لوازم جانبی نیاز داریم. به همین دلیل، ما قصد داریم شما را با انواع گوشی&zwnj;های هوشمند و لوازم جانبی آن&zwnj;ها آشنا کنیم.</span></span></span></span></p>
+          </div>
+          <div class="d-flex gap-2 mt-4 align-items-center">
+
+            <span class="color-secondry">مشاهده بیشتر</span>
+            <i class="fa fa-angle-down color-secondry" aria-hidden="true"></i>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="p-4 text-center w-bgQuestion rounded-circle  bg-question d-flex justify-content-center align-items-center">
+                <div class="p-1 rounded-2   w-question secondry-border d-flex justify-content-center align-items-center ">
+                  <i class="fa fa-question color-secondry" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-center mt-4 fs-5 fw-bold">
+              سوالات متداول گوشی موبایل 
+
+            </p>
+            <div class="d-flex justify-content-between align-items-center   border-bottom">
+              <p class="fs-6 fw-bold">
+                ارزان ترین سایت خرید گوشی کدام فروشگاه است؟
+              </p>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+            <div class="d-flex justify-content-between align-items-center   border-bottom my-4">
+              <p class="fs-6 fw-bold">
+                آیا قیمت انواع گوشی ها در دیجی کالا به روز هستند؟
+              </p>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+          </div>
+
+        </div>
+        
+      </main>
+      <footer class="mt-4 border-top container-fluid p-2 d-none d-lg-block">
+          <div class="d-flex justify-content-between mt-4">
+            <div>
+              <img src="./public/images/digi.svg">
+            </div>
+            <div class="d-flex justify-content-between border rounded-3 align-items-center gap-2 py-2 px-3">
+              <span class="gray-text">بازگشت به بالا</span>
+              <i class="fa fa-chevron-up gray-text" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2 mt-2 fs-14">
+            <span class="gray-text">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱
+            </span>
+            <div class="vertical-line"></div>
+            <span class="gray-text">
+              ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</span>
+          </div>
+          <div class="d-flex justify-content-around align-content-center mt-5 mb-4 ">
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full ">
+                <div class="d-flex justify-content-center align-content-center w-delivery">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/delivery1.svg" alt="">
+                </div>
+                <span class="text-black fs-12">امکان تحویل اکسپرس</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full ">
+                <div class="d-flex justify-content-center align-content-center w-delivery">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/delivery2.svg" alt="">
+                </div>
+                <span class="text-black fs-12">امکان پرداخت در محل</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full ">
+                <div class="d-flex justify-content-center align-content-center w-delivery">
+                  <img class="w-100 h-100 object-fit-contain" src="./public/images/delivery3.svg" alt="">
+                </div>
+                <span class="text-black fs-12">7روز هفته،24 ساعته</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full ">
+                <div class="d-flex justify-content-center align-content-center w-delivery">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/delivery5.svg" alt="">
+                </div>
+                <span class="text-black fs-12">7روز ضمانت بازگشت کالا</span>
+              </a>
+            </span>
+            <span class="">
+              <a class="d-flex flex-column align-items-center w-full">
+                <div class="d-flex justify-content-center align-content-center w-delivery">
+                  <img class="w-100 h-100 object-fit-contain " src="./public/images/delivery6.svg" alt="">
+                </div>
+                <span class="text-black  fs-12">ضمانت اصل بودن کالا</span>
+              </a>
+            </span>
+          </div>
+          <div class="row row-cols-4 mt-5">
+            <div  class="">
+              <ul class="mb-2 ">با دیجی کالا
+                <a class="gray-text " href=""><li class="my-2">اتاق خبر دیجی‌کالا</li></a>
+                <a class="gray-text " href=""><li class="mb-2">فروش در دیجی‌کالا</li></a>
+                <a class="gray-text" href=""><li class="mb-2">فرصت‌های شغلی</li></a>
+                <a class="gray-text" href=""><li class="mb-2">گزارش تخلف در دیجی‌کالا</li></a>
+                <a class="gray-text" href=""><li class="mb-2">تماس با دیجی‌کالا</li></a>
+                <a class="gray-text" href=""><li class="">درباره دیجی‌کالا</li></a>
+              </ul>
+
+            </div>
+            <div  class="">
+              <ul class="mb-2">خدمات مشتریان
+                <a class="gray-text" href=""><li class="my-2">پاسخ به پرسش‌های متداول</li></a>
+                <a class="gray-text" href=""><li class="mb-2">رویه های باز گرداندن کالا</li></a>
+                <a class="gray-text" href=""><li class="mb-2">شرایط استفاده</li></a>
+                <a class="gray-text" href=""><li class="mb-2">حریم خصوصی</li></a>
+                <a class="gray-text" href=""><li class="mb-2">گزارش باگ</li></a>
+                
+              </ul>
+
+            </div>
+            <div  class="">
+              <ul class="mb-2">راهنمای خرید از دیجی کالا
+                <a class="gray-text" href=""><li class="my-2">نحوه ثبت سفارش</li></a>
+                <a class="gray-text" href=""><li class="mb-2">رویه ارسال سفارش</li></a>
+                <a class="gray-text" href=""><li class="mb-2">شیوه های پرداخت</li></a>
+               
+              </ul>
+
+            </div>
+            <div class="d-flex flex-column gap-2 ">
+              <p class="fs-5">همراه ما باشید!</p>
+              <div class="d-flex  gap-4 align-items-center">
+                <i class="fa fa-instagram fs-3 gray-text" aria-hidden="true"></i>
+                <i class="fa fa-twitter fs-3 gray-text" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fs-3 gray-text" aria-hidden="true"></i>
+                <i class="fa fa-chrome fs-3 gray-text" aria-hidden="true"></i>
+              </div>
+              <p class="dark-gray-text mt-2">
+  با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید
+              </p>
+              <div  class="row ">
+                <div class="d-flex gap-2 flex-lg-column flex-xl-row gap-lg-2">
+                  <!-- <div class="col-10"> -->
+                    <input type="text" class="p-2 rounded-3 bg-gray-light border-0" placeholder="ایمیل شما">
+                   
+                  <!-- </div> -->
+                  <!-- <div class="col-2"> -->
+                    <button class="p-2 rounded-3  bg-gray-dark text-white border-0"> ثبت</button>
+                  <!-- </div> -->
+                </div>
+                </div>
+                
+  
+            </div>
+          </div>
+         
+      </footer>
+      <div class="sticky-footer d-lg-none bg-white p-2 sticky-bottom">
+        <div class="d-flex justify-content-around">
+          <div class="d-flex flex-column gap-2 w-iconSticky align-items-center ">
+            <!-- <i class="fa fa-home gray-text fs-3 w-icon" aria-hidden="true"></i> -->
+            <img class="w-100 h-100" src="./public/images/icons8-home-32 (2).png">
+            <span class="fs-12 gray-text">خانه</span>
+          </div>
+          <div class="d-flex flex-column gap-2 w-iconSticky align-items-center">
+            <img class="w-100 h-100" src="./public/images/icons8-category-32.png">
+            <span class="fs-12 gray-text text-nowrap">دسته بندی</span>
+          </div>
+          <div class="d-flex flex-column gap-2 w-iconSticky align-items-center">
+            <!-- <i class="fa fa-shopping-cart gray-text fs-3" aria-hidden="true"></i> -->
+            <img class="w-100 h-100" src="./public/images/icons8-sell-stock-48.png">
+            <span class="fs-12 gray-text text-nowrap ">سبد خرید</span>
+          </div>
+          <div class="d-flex flex-column gap-2 w-iconSticky  align-items-center">
+            <!-- <i class="fa fa-user-o gray-text fs-3" aria-hidden="true"></i> -->
+            <img class="w-100 h-100" src="./public/images/icons8-user-32.png">
+            <span class="fs-12 gray-text text-nowrap ">دیجی کالای من</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.rtl.min.js"></script>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/js/script.js" type="modules"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        freeMode: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          700: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+          1400: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

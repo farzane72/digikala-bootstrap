@@ -1,0 +1,284 @@
+font-face {
+  font-family: Vazirmatn;
+  src: url("./fonts/Vazirmatn-Medium.eot"), url("fonts/Vazirmatn-Medium.woff"),
+    url("fonts/Vazirmatn-Medium.woff2 format('woff2')"),
+    url("fonts/Vazirmatn-Thin.ttf"), url("fonts/Vazirmatn-Light.ttf"),
+    url("fonts/Vazirmatn-Thin.woff2"), url("fonts/Vazirmatn-Light.woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("./fonts/Sahel.eot");
+  src: url("./fonts/Sahel.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Sahel.woff2") format("woff2"),
+    url("./fonts/Sahel.woff") format("woff"),
+    url("./fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sahel;
+}
+
+body {
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* /----------utils-------------------- */
+.bg-gray-light {
+  background-color: #f0f0f1;
+}
+.bg-gray-dark {
+  background-color: #e0e0e2;
+}
+
+.gray-icon {
+  color: #a1a3a8;
+}
+.gray-border {
+  border-color: #e0e0e2;
+}
+.gray-text {
+  color: #62666d;
+}
+.dark-gray-text {
+  color: #3f4064;
+}
+.border-red:hover {
+  padding-bottom: 4px;
+  border-bottom: 1px solid crimson;
+  cursor: pointer;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e2;
+}
+.w-search {
+  width: 600px;
+}
+
+.whiteSpace-noWrap {
+  white-space: nowrap;
+}
+.start-10 {
+  right: 10px;
+}
+.start-20 {
+  right: 20px;
+}
+.height-slider {
+  height: 300px;
+}
+.height-banner-top {
+  height: 200px;
+}
+.h-bannner-header {
+  height: 60px;
+}
+.max-w-banner {
+  width: 100%;
+  max-width: 768px;
+  overflow: hidden;
+}
+.min-h-phones {
+  /* min-width:300px; */
+  min-height: 300px;
+}
+.h-phone {
+  min-height: 150px;
+}
+.color-secondry {
+  color: #19bfd3;
+}
+.secondry-border {
+  border: 2px solid #19bfd3;
+}
+.mini-phone {
+  width: 86px;
+  height: 86px;
+}
+.sec-mini-phone {
+  width: 300px;
+  height: auto;
+}
+.ellipsis-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.text-miniphone {
+  color: #3f4064;
+}
+.line-top::before {
+  background-color: #f0f0f1;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.w-brand {
+  width: 80px;
+  height: 80px;
+}
+.border-video {
+  border-top: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+}
+.w-question {
+  width: 20px;
+  height: 20px;
+}
+.w-bgQuestion {
+  width: 30px;
+  height: 30px;
+}
+.w-delivery {
+  width: 56px;
+  height: 56px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.w-iconSticky {
+  width: 30px;
+  height: 30px;
+}
+
+.w-video {
+  /* height: 262px;
+    width: 100%; */
+  height: 200px;
+  width: 320px;
+}
+.w-video2 {
+  height: 205px;
+  width: 100%;
+  /* height:200px;
+    width:320px; */
+}
+.bg-question {
+  background: rgba(15, 171, 198, 0.051);
+}
+.bg-btnPlay {
+  background-color: rgba(43, 51, 63, 0.7);
+}
+.h-text {
+  height: 90px;
+}
+.h-p {
+  height: 136px;
+}
+
+/* /----swiper----------------------------- */
+
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  } */
+
+.swiper-slide {
+  /* text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+}
+.swiper-pagination-bullet-active {
+  width: 16px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* /--------breakpoint---------------------- */
+
+@media only screen and (max-width: 37.5em) {
+  .header-top {
+    width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 48em) {
+  } */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 62em) {
+  .w-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .fs-14 {
+    font-size: 12px;
+  }
+  .w-brand {
+    width: 170px;
+    height: 170px;
+  }
+  .border-video {
+    border-left: 1px solid #f0f0f1;
+    border-right: 1px solid #f0f0f1;
+    border-top: none;
+    border-bottom: none;
+  }
+  .border-videos {
+    border: 1px solid #f0f0f1;
+    border-radius: 10px;
+  }
+  .object-img {
+    object-fit: contain;
+  }
+  /* .height-slider{
+    height: 400px;
+  } */
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 75em) {
+  .w-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .fs-14 {
+    font-size: 14px;
+  }
+  .max-w-banner {
+    width: 100%;
+    max-width: 1300px;
+    overflow: hidden;
+  }
+  /* .banner-top{
+    flex-direction: row;
+  } */
+}
